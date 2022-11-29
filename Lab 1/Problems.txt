@@ -1,0 +1,23 @@
+Lab 01:
+Problem 1: 
+Write a function that receives a string containing a 16-bit binary integer. The function must return the string's integer value.
+
+Problem 2: 
+Write a function that receives a string containing a 32-bit hexadecimal integer. The function must return the string's integer value.
+	
+Problem 3: 
+Write a function that receives an integer. The function must return a string containing the binary representation of the integer.
+
+Problem 4: 
+Write a function that receives an integer. The function must return a string containing the hexadecimal representation of the integer.
+
+Problem 5: 
+Write a function that adds two digit-strings in base b, where 2 <= b <= 10. Each string may be as long as one million digits, and strings must be of equal length. 
+Return the sum in a string that uses the same number base.
+
+Submission:
+1.	Upload your report with the screenshots that capture all your source code and the running results. 
+2.	You do not need to past your source code in the report. I check your screenshots only. 
+3.	Before taking the screenshots of your source code, make sure your student name and student number are written in the comments of your source code so I can see them.
+4.	When take the screenshots of your running results, please place the source code with your student name and number as the background of your screen and I can see them.
+

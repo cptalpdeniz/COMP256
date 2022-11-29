@@ -1,0 +1,22 @@
+Problem 1:
+Convert a doubleword from Big Endian order to Little Endian.
+Write a program that uses the variable below and MOV instructions to copy the value from bigEndian to littleEndian, reversing the order of the bytes. The number’s 32-bit value is understood to be 123456798 hexadecimal
+.data 
+bigEndian BYTE 12h,34h,56h,78h 
+littleEndian DWORD ?
+
+Problem 2:
+Exchanging Pairs of Array values.
+Write a program with a loop and indexed addressing that exchanges every pair of values in an array with an even number of elements. Therefore, item i will exchange with item i+1, and item i+2 will exchange with item i+3, and so on. 
+
+Problem 3:
+Copying a Word Array.
+
+Problem 4:
+Calculate the first seven Fibonacci numbers.
+
+Problem 5:
+Reverse an Array.
+
+Problem 6:
+Using a loop and indexed addressing, write code that rotates the members of a 32-bit integer array forward one position. The value at the end of the array must wrap around to the first position. For example, the array [10,20,30,40] would be transformed into [40,10,20,30].

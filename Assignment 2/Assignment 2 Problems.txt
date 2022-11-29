@@ -1,0 +1,14 @@
+Problem 1: FindThrees Procedure 
+Create a procedure named FindThrees that returns 1 if an array has three consecutive values of 3 somewhere in the array. Otherwise, return 0. The procedure’s input parameter list contains a pointer to the array and the array’s size. Use the PROC directive with a parameter list when declaring the procedure. Preserve all registers (except EAX) that are modified by the procedure. Write a test program that calls FindThrees several times with different arrays.
+
+Problem 2: DifferentInputs Procedure 
+Write a procedure named DifferentInputs that returns EAX = 1 if the values of its three input parameters are all different; otherwise, return with EAX = 0. Use the PROC directive with a parameter list when declaring the procedure. Create a PROTO declaration for your procedure and call it five times from a test program that passes different inputs. 
+
+Problem 3: Exchanging Integers 
+Create an array of randomly ordered integers. Using the code in the Swap.asm given you with the zipped folder of this week, write a loop that exchanges each consecutive pair of integers in the array.
+
+Problem 4: Greatest Common Divisor 
+Write a recursive implementation of Euclid’s algorithm for finding the greatest common divisor (GCD) of two integers. Descriptions of this algorithm are available in algebra books and on the Web. Write a test program that calls your GCD procedure five times, using the following pairs of integers: (5,20), (24,18), (11,7), (432,226), (26,13). After each procedure call, display the GCD.
+
+Problem 5: Counting Matching Elements 
+Write a procedure named CountMatches that receives points to two arrays of signed doublewords, and a third parameter that indicates the length of the two arrays. For each element xi in the first array, if the corresponding yi in the second array is equal, increment a count. At the end, return a count of the number of matching array elements in EAX. Write a test program that calls your procedure and passes pointers to two different pairs of arrays. Use the INVOKE statement to call your procedure and pass stack parameters. Create a PROTO declaration for Count- Matches. Save and restore any registers (other than EAX) changed by your procedure. 

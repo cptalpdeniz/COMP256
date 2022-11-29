@@ -1,0 +1,29 @@
+1. Summing Array Elements in a Range
+Create a procedure that returns the sum of all array elements falling within the range j... k (inclusive). Write a test program that calls the procedure twice, passing a pointer to a signed doubleword array, the size of the array, and the values of j and k. Return the sum in the EAX register, and preserve all other register values between calls to the procedure.
+
+2. Probabilities and Colors
+Write a program that randomly chooses among three different colors for displaying text on
+the screen. Use a loop to display 20 lines of text, each with a randomly chosen color. The
+probabilities for each color are to be as follows: white _ 30%, blue _ 10%, green _ 60%.
+Suggestion: Generate a random integer between 0 and 9. If the resulting integer falls in the
+range 0 to 2 (inclusive), choose white. If the integer equals 3, choose blue. If the integer falls in
+the range 4 to 9 (inclusive), choose green. Test your program by running it ten times, each time
+observing whether the distribution of line colors appears to match the required probabilities.
+(The Irvine32 library is required for this solution program.)
+
+3. Validating a PIN
+Banks use a Personal Identification Number (PIN) to uniquely identify each customer. Let us
+assume that our bank has a specified range of acceptable values for each digit in its customers’
+5-digit PINs. The table shown below contains the acceptable ranges, where digits are numbered
+from left to right in the PIN. Then we can see that the PIN 52413 is valid. But the PIN 43534 is
+invalid because the first digit is out of range. Similarly, 64535 is invalid because of its last digit.
+ 
+Your task is to create a procedure named Validate_PIN that receives a pointer to an array of byte
+containing a 5-digit PIN. Declare two arrays to hold the minimum and maximum range values,
+and use these arrays to validate each digit of the PIN that was passed to the procedure. If any
+digit is found to be outside its valid range, immediately return the digit’s position (between
+1 and 5) in the EAX register. If the entire PIN is valid, return 0 in EAX. Preserve all other
+register values between calls to the procedure. Write a test program that calls Validate_PIN at
+least four times, using both valid and invalid byte arrays. By running the program in a debugger,
+verify that the return value in EAX after each procedure call is valid. Or, if you prefer to use the
+book’s library, you can display "Valid" or "Invalid" on the console after each procedure call.

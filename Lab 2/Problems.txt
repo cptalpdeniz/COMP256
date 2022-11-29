@@ -1,0 +1,6 @@
+Lab 02:
+Problem 1:
+Please finish the tutorial here: http://asmirvine.com/gettingStartedVS2019/index.htm 
+
+Problem 2:
+Please finish the tutorial here: http://asmirvine.com/debug/vstudio2019/index.htm 

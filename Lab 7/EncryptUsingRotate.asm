@@ -1,7 +1,6 @@
 ; COMP256 - Lab 7
 ; Question 1
 ; Encryption Using Rotate Operations
-; Alp Deniz Senyurt - 300203734, Andrew Meier - 300187745, Braedon M 300189398
 
 INCLUDE Irvine32.inc
 
